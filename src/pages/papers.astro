@@ -1,0 +1,8 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SearchPapers from "../components/search-papers.tsx";
+---
+
+<BaseLayout pageTitle="Papers">
+    <SearchPapers client:load />
+</BaseLayout>
